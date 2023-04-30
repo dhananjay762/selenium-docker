@@ -1,0 +1,14 @@
+<suite name="book-flight-module">
+	<test name="book-flight-4">
+		<parameter name="noOfPassengers" value="4" />
+		<classes>
+			<class name="com.newtours.tests.BookFlightTest" />
+		</classes>
+	</test>
+	<test name="book-flight-6">
+		<parameter name="noOfPassengers" value="6" />
+		<classes>
+			<class name="com.newtours.tests.BookFlightTest" />
+		</classes>
+	</test>
+</suite>
